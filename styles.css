@@ -1,0 +1,32 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffdff4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-table {
+  background-color: black;
+  color: white;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main-table { border-collapse: collapse; margin: auto; background-color: black; }
+tr { background: white; }
+th { background-color: black; color: #fff; }
+td { border: 1px solid #ccc; }
+td, th { text-align: center; padding: 1em; }
+
+.section-01 {
+  margin-bottom: 10px;
+}
+
+.section-02 {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <title>CRUD OOP</title>
+</head>
+<body>
+
+  <h2>CRUD OPP</h2>
+
+  <div class="section-01">
+    <input id="input-name" type="text" name="Name" placeholder="Name" value="">
+    <input id="input-area" type="text" name="Area" placeholder="Area" value="">
+    <input id="input-salary" type="text" name="Salary" placeholder="Salary" value="">
+    <button id="btn-add">Add Employe</button>
+    <button id="btn-remove">Remove Last Employe</button>
+  </div>
+  
+  <div class="section-02">
+    <input id="input-show-area" type="text" name="Area" placeholder="Show by Area" value="">
+    <button id="btn-show-employes-area">Show Employes by Area</button>
+    <button id="btn-salary-area">Show Salary by Area</button>
+    <div>
+      <button id="btn-show-employes-all">Show All Employes</button>
+      <button id="btn-salary-all">Show Total Salary</button>
+    </div>
+  </div>
+
+    <!-- <thead class="table-titles">
+      <tr>
+        <th>User</th>
+        <th>Area</th>
+        <th>Salary</th>
+      </tr>
+    </thead> -->
+
+  <div class="table">
+    <div class="title-table">
+      <h2 class="title-01">User</h2>
+      <h2 class="title-02">Area</h2>
+      <h2 class="title-03">Salary</h2>
+    </div>
+  
+    <table id="main-table"></table>
+  </div>
+
+  <script src="./company.js"></script>
+</body>
+</html>
